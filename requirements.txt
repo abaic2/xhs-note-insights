@@ -1,3 +1,5 @@
-streamlit==1.64.0
-plotly==7.1.0
-streamlit-option-menu==0.4.0
+# 用范围而不是精确锁定：这些 API 长期稳定，给范围能避免云端解析不到
+# 某个精确版本而首次部署就失败。上限只挡大版本，防破坏性变更。
+streamlit>=1.40,<2
+plotly>=5.20,<8
+streamlit-option-menu>=0.3.6
