@@ -1,0 +1,18 @@
+# 浅色主题 + 小红书红。app.py 里还有一层自定义 CSS 做更细的排版，
+# 这里定的是基底色，两者要一致，否则会出现「浅色配置 + 深色底」的割裂。
+[theme]
+base = "light"
+primaryColor = "#FF2442"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F6F8"
+textColor = "#1B1F26"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
